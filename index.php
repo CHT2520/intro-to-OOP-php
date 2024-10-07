@@ -39,7 +39,7 @@
 1) The code above declares a simple Student class. It then creates a Student object and dumps the details of the object. 
 a) Open this in a browser to check it works
 b) Add an additional line of code that will call the getFullname method. 
-c) Add some additional to create a second student object. Use var_dump() to check this also works
+c) Add some additional code to create a second student object. Use var_dump() to check this also works
 */
 
 
@@ -51,7 +51,7 @@ Again, once this works add some additional code to create a second student objec
 
 
     // $exampleStudent = new Student("u0123456", "John", "Smith");
-    // echo "<p>".$exampleStudent->getFullName()."</p>";
+    // echo "<p>{$exampleStudent->getFullName()}</p>";
 
 
 
